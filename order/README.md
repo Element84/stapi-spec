@@ -69,7 +69,6 @@ See [Order Object](#order-object).
 | stapi_type   | string | **REQUIRED.** Type of the STAPI Object. MUST be set to `Order`.  |
 | stapi_version   | string | **REQUIRED.** The STAPI version the Order implements. |
 | id   | string | Unique provider generated order ID. |
-| conformsTo      | \[string\] | Conformance classes that apply to the order specifically. |
 | user | string | User or organization ID ? |
 | created | datetime | When the order was created. |
 | status | [Order Status Object](#order-status) | Current Order Status object. |

@@ -31,7 +31,6 @@ STAPI Product objects are represented in JSON format and are very flexible. Any 
 | stapi_type   | string | **REQUIRED.** Type of the STAPI Object. MUST be set to `Product`.  |
 | stapi_version   | string | **REQUIRED.** The STAPI version the Product implements. |
 | id              | string                                           | **REQUIRED.** Identifier for the Product that is unique across the provider. |
-| conformsTo      | \[string\]                                       | Conformance classes that apply to the product specifically. |
 | title           | string                                           | A short descriptive one-line title for the Product.       |
 | description     | string                                           | **REQUIRED.** Detailed multi-line description to fully explain the Collection. [CommonMark 0.29](http://commonmark.org/) syntax MAY be used for rich text representation. |
 | keywords        | \[string]                                        | List of keywords describing the Product.                  |
