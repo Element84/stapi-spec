@@ -431,7 +431,8 @@ components:
     order_statuses:
       type: object
       required:
-        - conformsTo
+        - current
+        - history
       properties:
         current:
           description: >-
